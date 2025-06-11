@@ -1,0 +1,7 @@
+ - name: Deploy Maven Artifact
+   hosts: local
+   become: true
+   tasks:
+     - name: example
+       debug: 
+         msg: "Hello"
